@@ -1,0 +1,43 @@
+.form{
+    display:flex;
+    flex-direction: column;
+}
+.button{
+    width:max-content;
+    padding:10px;
+    border-radius: 10px;
+}
+.edit{
+    background-color: yellow;
+    color:black;
+}
+.submit{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.delete{
+    background-color: red;
+    color:white;
+}
+.text_area{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width:70vw;
+    height:50vh;
+    padding:5px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+}
+.blog-text{
+    width:50vw;
+    height: max-content;
+    /* margin: 1rem; */
+    padding:10px;
+    border:1px;
+    border-radius: 5%;
+}
+.blog-text:hover{
+    background-color: beige;
+}

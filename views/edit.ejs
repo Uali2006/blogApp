@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+    Edit the blog and click submit
+    <form action = "/submit_edit" method="POST">
+        <input type = "hidden" name = "index" value = <%= index %>>
+        <textarea name = "edit_blog" cols = "50" rows = "10" class="text_area"><%= text %></textarea>
+        <button type="submit" class="button submit">Submit</button>
+    </form>
+
+
+<%- include("partials/footer.ejs")  %>
